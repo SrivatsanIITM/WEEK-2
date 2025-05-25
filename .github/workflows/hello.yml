@@ -1,11 +1,10 @@
-name: Run on Dispatch
+name: Hello World Workflow
 
-on:
-  workflow_dispatch:
+on: [push]
 
 jobs:
-  example:
+  test:
     runs-on: ubuntu-latest
     steps:
-      - name: Say Hello
-        run: echo "Hello from GitHub Actions!"
+      - name: 23f2000296@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
